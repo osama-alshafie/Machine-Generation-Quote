@@ -1,0 +1,68 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:  border-box;
+    box-sizing:  border-box;
+}
+body{
+    background-color: #004400;
+}
+.container{
+    width: 600px;
+    height: 370px;
+    margin: 140px auto 0px;
+    padding: 15px 20px 20px 20px;
+    text-align: center;
+    background-color: #ddd;
+}
+.container .containt h1{
+    font-family: 'Lobster', cursive;
+}
+.container .containt .quote{
+    width: 100%;
+    height: 150px;
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    background-color: #fff;
+    text-align: left;
+    font-family: 'Courgette', cursive;
+}
+.container .containt .quote p{
+    display: inline;
+    font-size: 24px;
+    color: #111;
+}
+.container .containt .quote i{
+    font-size: 28px;
+    color: #111;
+}
+.container .containt .quote span{
+    font-size: 16px;
+    color: rgba(1,1,1,0.85);
+}
+.container .containt button{
+    display: block;
+    width: 100%;
+    height: 40px;
+    border: none;
+    margin-bottom: 5px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.container .containt button:focus{
+    outline: none;
+}
+.container .containt .generator{
+    background-color: #3b5998;
+}
+.container .containt .tweet{
+    background-color: #1da1f2;
+}
+footer{
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: 16px;
+    color: #ccc;
+}
